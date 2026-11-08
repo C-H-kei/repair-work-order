@@ -1,0 +1,13 @@
+# 忽略后端编译产物和配置
+backend/repair-backend/target/
+*.iml
+.idea/
+
+# 忽略前端依赖和构建产物
+frontend/node_modules/
+frontend/dist/
+
+# 忽略本地环境变量和日志
+.env.local
+*.log
+.DS_Store
